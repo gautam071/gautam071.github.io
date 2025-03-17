@@ -5,7 +5,4 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   base: "/", // 👈 Replace with your actual GitHub repo name
   plugins: [react()],
-  optimizeDeps: {
-    exclude: ["lucide-react"],
-  },
 });
